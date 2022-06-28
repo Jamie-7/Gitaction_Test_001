@@ -2,11 +2,7 @@ name: GitHub Actions Demo
 on: 
   pull_request:
     branches:
-<<<<<<< HEAD
       - main
-=======
-      - master
->>>>>>> 1cb9e114e7a89b5026f8961fdf57c93302a1ee6e
 jobs:
   Explore-GitHub-Actions:
     runs-on: ubuntu-latest
